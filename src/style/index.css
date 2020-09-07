@@ -23,3 +23,41 @@ header,
 main{
   border: 1px black solid;
 }
+
+header{
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:100px;
+}
+
+.pageHeader{
+  margin-left:100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerLogo{
+  font-size:50px;
+  font-weight: bolder;
+  margin: 10px 5px;
+}
+
+.login{
+  margin-right:100px;
+  border: 0;
+  color:white;
+  background-color:#3b5998;
+}
+
+.registerBtn{
+  background-color: #42b72a;
+  border: 0;
+  color:white;
+  margin-top: auto;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 50px;
+}
